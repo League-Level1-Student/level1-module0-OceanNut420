@@ -1,6 +1,8 @@
 package _08_jack_in_the_box;
 
 import java.applet.AudioClip;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.net.URL;
 
 import javax.swing.Icon;
@@ -10,11 +12,11 @@ import javax.swing.JButton;
 import javax.swing.JFrame;
 import javax.swing.JLabel;
 
-public class jackoutthebox {
+public class jackoutthebox implements ActionListener {
+	static JButton button = new JButton();
 
 	public static void main(String[] args) {
 		JFrame frame = new JFrame();
-		JButton button = new JButton();
 		new jackoutthebox().showButton();
 		frame.setVisible(true);
 		button.setText("surprise");
@@ -24,7 +26,7 @@ public class jackoutthebox {
 	}
 
 	private void showButton() {
-		// TODO Auto-generated method stub
+		button.addActionListener(this);
 		
 	}
 	private void showPicture(String fileName) { 
@@ -67,4 +69,15 @@ public class jackoutthebox {
 	           e.printStackTrace();
 	      }
 	 }
+	int keyboard = 0;
+	@Override
+	public void actionPerformed(ActionEvent e) {
+		System.out.println("button clicked");
+		keyboard++;
+		System.out.println(keyboard);
+		if(keyboard == 5) {
+			showPicture("jackInTheBox.png");
+		}
+		
+	}
 }
