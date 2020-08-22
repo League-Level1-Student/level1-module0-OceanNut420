@@ -77,6 +77,7 @@ public class jackoutthebox implements ActionListener {
 		System.out.println(keyboard);
 		if(keyboard == 5) {
 			showPicture("jackInTheBox.png");
+			playSound("homer-woohoo.wav");
 		}
 		
 	}
