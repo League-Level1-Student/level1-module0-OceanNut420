@@ -55,6 +55,14 @@ public class Dogphat implements ActionListener {
 		if(buttonClicked == button) {
 			playSound("breathe.html");
 		}
+		if(buttonClicked == buttoff) {
+			playSound("520954_redpanda69_snapping-closed-an-airpods-case.mp3");
+		}
+
+		if(buttonClicked == but) {
+			playSound("breathe.html");
+		}
+
 	}
 	
 	
