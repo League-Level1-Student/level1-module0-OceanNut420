@@ -60,13 +60,10 @@ public class Dogphat implements ActionListener {
 		}
 
 		if(buttonClicked == but) {
-			playSound("breathe.html");
+			playSound("");
 		}
-
 	}
-	
-	
-	
-	
-	
 }
+		
+
+	
