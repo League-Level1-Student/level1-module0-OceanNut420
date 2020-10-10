@@ -60,7 +60,7 @@ public class Dogphat implements ActionListener {
 		}
 
 		if(buttonClicked == but) {
-			playSound("");
+			playSound("392617_screamstudio_dog-toy (1).wav");
 		}
 	}
 }
