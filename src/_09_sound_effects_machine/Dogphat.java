@@ -29,6 +29,9 @@ public class Dogphat implements ActionListener {
         panel.add(buttoff);
         panel.add(but);
         frame.pack();
+        Dogphat dog = new Dogphat();
+        dog.showButton();
+        
 	}
 	
 	public void showButton() {
@@ -53,14 +56,14 @@ public class Dogphat implements ActionListener {
 		System.out.println("Button clicked");
 		JButton buttonClicked = (JButton) e.getSource();
 		if(buttonClicked == button) {
-			playSound("415209_inspectorj_cat-screaming-a(2).wav");
+			playSound("homer-woohoo.wav");
 		}
 		if(buttonClicked == buttoff) {
-			playSound("520954_redpanda69_snapping-closed-an-airpods-case.mp3");
+			playSound("homer-woohoo.wav");
 		}
 
 		if(buttonClicked == but) {
-			playSound("392617_screamstudio_dog-toy (1).wav");
+			playSound("homer-woohoo.wav");
 		}
 	}
 }
