@@ -22,20 +22,20 @@ public class cat implements ActionListener {
 		public static void main(String[] args) {
 
 			JFrame frame = new JFrame();
-	        new Dogphat().showButton();
 	        frame.setVisible(true);
 	        frame.setPreferredSize(new Dimension(100,100));
 	        button.setText("z");
 	        buttoff.setText("zz");
 	        but.setText("zzz");
 	        JPanel panel = new JPanel();
-	        frame.add(panel);
 	        panel.add(button);
 	        panel.add(buttoff);
 	        panel.add(but);
-	        frame.pack();
 	        Dogphat dog = new Dogphat();
 	        dog.showButton();
+	        frame.add(panel);
+	        frame.pack();
+	        
 	        
 		}
 		
@@ -43,6 +43,7 @@ public class cat implements ActionListener {
 	                button.addActionListener(this);
 	                buttoff.addActionListener(this);
 	                but.addActionListener(this);
+	                
 	   }
 		
 
@@ -84,19 +85,21 @@ public class cat implements ActionListener {
 		}
 
 		public void actionPerformed(ActionEvent e) {
-			// TODO Auto-generated method stub
 			System.out.println("Button clicked");
 			JButton buttonClicked = (JButton) e.getSource();
 			if(buttonClicked == button) {
+				System.out.println("button clicked");
 				showDucks();
 				playVideo("https://www.youtube.com/watch?v=MtN1YnoL46Q");
 			}
 			if(buttonClicked == buttoff) {
+				System.out.println("button clicked");
 				showFrog();
 				playVideo("https://www.youtube.com/watch?v=cBkWhkAZ9ds");
 			}
 
 			if(buttonClicked == but) {
+				System.out.println("button clicked");
 				showFluffyUnicorns();
 				playVideo("https://www.youtube.com/watch?v=a-xWhG4UU_Y");
 			}
