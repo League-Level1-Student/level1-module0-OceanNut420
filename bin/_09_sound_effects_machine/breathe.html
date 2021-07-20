@@ -1,0 +1,2205 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- saved from url=(0041)https://freesound.org/search/?q=breathing -->
+<html xmlns:fb="http://www.facebook.com/2008/fbml" xmlns:og="http://ogp.me/ns#" xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        
+        <meta name="description" content="Freesound: collaborative database of creative-commons licensed sound for musicians and sound lovers. Have you freed your sound today?">
+        <meta name="keywords" content="free, sound">
+        <link rel="stylesheet" type="text/css" href="./breathe_files/all.css">
+        <!--[if IE 6]><link rel="stylesheet" type="text/css" href="/media/css/ie6.css?v=2408" /><![endif]-->
+        <link rel="icon" href="https://freesound.org/favicon.ico">
+        <link rel="apple-touch-icon" sizes="180x180" href="https://freesound.org/apple-touch-icon.png">
+        <link rel="manifest" href="https://freesound.org/site.webmanifest">
+        <link rel="mask-icon" href="https://freesound.org/safari-pinned-tab.svg" color="#5bbad5">
+        <meta name="msapplication-TileColor" content="#00aba9">
+        <meta name="theme-color" content="#ffffff">
+        <title>Freesound - sound search</title>
+        <script type="text/javascript" async="" src="./breathe_files/ga.js.download"></script><script src="./breathe_files/jquery-1.5.2.min.js.download" type="text/javascript"></script>
+        <script src="./breathe_files/jquery-ui-1.8.11.custom.min.js.download" type="text/javascript"></script>
+        <script src="./breathe_files/jquery.cookie.js.download" type="text/javascript"></script>
+        <script src="./breathe_files/swfobject.js.download" type="text/javascript"></script>
+        <script src="./breathe_files/jquery.watermarkinput.js.download" type="text/javascript"></script>
+        <script type="text/javascript">
+            var isLoggedIn = false;
+            var loginUrl = "/home/login/?next=/search/";
+            $(document).ready(function() {
+                 $("#search input[name=q]").Watermark("search sounds");
+            });
+            function clearWatermark(){
+			   $.Watermark.HideAll()
+			   return true
+			}
+        </script>
+        <script src="./breathe_files/freesound.js.download" type="text/javascript"></script>
+    	<script src="./breathe_files/ajax_utils.js.download" type="text/javascript"></script>
+        <!-- next couple of lines are used for the HTML player -->
+        <link href="./breathe_files/css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" type="text/css" href="./breathe_files/player.css">
+        <script src="./breathe_files/soundmanager2.js.download"></script>
+        <script type="text/javascript" src="./breathe_files/player.js.download"></script>
+        <script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-86270-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+        
+
+        
+
+    </head>
+
+    <body id="" onload="" onunload="">
+
+        
+
+        <div id="header">
+            <div id="account_nav">
+                
+                    <a href="https://freesound.org/home/register/">Register</a>
+                    <a href="https://freesound.org/home/login/?next=/search/">Log In</a>
+                
+                <a href="https://freesound.org/home/upload/" id="upload_button"></a>
+            </div>
+
+            <a href="https://freesound.org/" id="logo"></a>
+
+            <div id="search">
+                <form method="get" onsubmit="return clearWatermark()" action="https://freesound.org/search/">
+                    <fieldset>
+                       <input type="text" name="q" value="" size="30" style="color: rgb(170, 170, 170);">
+                       <input type="submit" value="" id="search_submit">
+                    </fieldset>
+                </form>
+            </div>
+
+            <ul id="site_nav">
+                
+                <li class="active_tab"><a href="https://freesound.org/browse/" id="site_nav_sounds"><span class="site_nav_icon"></span>Sounds</a></li>
+                <li class=""><a href="https://freesound.org/forum/" id="site_nav_forums"><span class="site_nav_icon"></span>Forums</a></li>
+                <li class=""><a href="https://freesound.org/people/" id="site_nav_people"><span class="site_nav_icon"></span>People</a></li>
+                <li class=""><a href="https://freesound.org/help/faq/" id="site_nav_help"><span class="site_nav_icon"></span>Help</a></li>
+
+            </ul>
+        </div>
+
+        <div id="wrapper">
+            <div id="container">
+
+            
+
+            
+<div id="content_full"> <!-- START of Content area -->
+
+
+<form id="search_form" method="get" onsubmit="return addAdvancedSearchOptionsFilters()" action="https://freesound.org/search/">
+    <fieldset>
+
+       <input id="query_input" type="text" name="q" value="breathing" size="30">
+       <input id="filter_query" type="hidden" name="f" value="" size="30">
+       
+       <select name="s">
+            
+            <option value="score desc" selected="selected">Automatic by relevance</option>
+            
+            <option value="duration desc">Duration (long first)</option>
+            
+            <option value="duration asc">Duration (short first)</option>
+            
+            <option value="created desc">Date added (newest first)</option>
+            
+            <option value="created asc">Date added (oldest first)</option>
+            
+            <option value="num_downloads desc">Downloads (most first)</option>
+            
+            <option value="num_downloads asc">Downloads (least first)</option>
+            
+            <option value="avg_rating desc">Rating (highest first)</option>
+            
+            <option value="avg_rating asc">Rating (lowest first)</option>
+            
+       </select>
+
+       <input type="submit" value="search" id="search_submit">
+
+       <script type="text/javascript">
+
+    function showAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(1);
+        $("#enableShowButton").hide();
+        $("#advanced_search_options").show('blind', {}, 500, function() {});
+
+    }
+
+    function hideAdvancedSearchOptions()
+    {
+        $("#advanced_search_hidden").val(0);
+        $("#advanced_search_options").hide('blind', {}, 500, function() {});
+        $("#enableShowButton").show();
+    }
+
+    function set_hidden_grouping_value(){
+        if ($("#grouping_geotagged").is(':checked')){
+            $("#grouping_geotagged_hidden").val("1")
+        }else{
+            $("#grouping_geotagged_hidden").val("")
+        }
+    }
+
+</script>
+
+
+<div id="advanced_search_options" class="advanced_search_options" style="display:none">
+<input id="advanced_search_hidden" type="hidden" name="advanced" value="0">
+
+<div style="margin-top:8px;"></div>Search in:&nbsp;
+<label><input type="checkbox" name="a_tag" value="1"> Tags</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_filename" value="1"> File names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_description" value="1"> Descriptions</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_packname" value="1"> Pack names</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_soundid" value="1"> Sound Ids</label>&nbsp;&nbsp;
+<label><input type="checkbox" name="a_username" value="1"> User names</label>
+<span class="advanced_search_indication">(if none is selected, all will be used)</span>
+<br>
+
+Duration between <input class="inputtext" id="filter_duration_min" value="0" size="6"> <label for="filter_duration_min">(min)</label>
+and <input class="inputtext" id="filter_duration_max" value="*" size="6"> <label for="filter_duration_max">(max)</label> seconds<br>
+<input id="filter_is_geotagged" type="checkbox" value="1"> <label for="filter_is_geotagged">Only geotagged sounds</label><br>
+<input id="grouping_geotagged" type="checkbox" onchange="set_hidden_grouping_value()" checked=""> <label for="grouping_geotagged">Group sounds by pack</label>
+<input id="grouping_geotagged_hidden" type="hidden" name="g" value="1">
+
+<br>
+<span class="advanced_search_options_button"><a style="cursor:pointer;" onclick="hideAdvancedSearchOptions();">Hide advanced search options</a></span>
+</div>
+
+<span id="enableShowButton" class="advanced_search_options_button">
+    <div style="margin-top:4px;"></div>
+    <a style="cursor:pointer;" onclick="showAdvancedSearchOptions();">Show advanced search options</a>
+</span>
+
+
+        <br>
+
+    </fieldset>
+</form>
+
+
+<p id="filter_query_display">
+
+
+
+</p>
+
+<script type="text/javascript">
+
+    $(document).ready(function(){
+
+        // Fill advanced search fields that were passen on the f parameter
+        // Duration
+
+        if (getFilterValue("duration","min") == "")
+            $("#filter_duration_min").val("0");
+        else
+            $("#filter_duration_min").val(getFilterValue("duration","min"));
+
+        if (getFilterValue("duration","max") == "")
+            $("#filter_duration_max").val("*");
+        else
+            $("#filter_duration_max").val(getFilterValue("duration","max"));
+
+        // Geotagged
+        if (getFilterValue("is_geotagged")==1)
+               $("#filter_is_geotagged").attr('checked','checked')
+
+        // Extract terms from the query search box and highlight any of their occurrences in the descriptions
+        terms = document.getElementById("query_input").value.split(" ");
+
+        for(var i=0;i<terms.length;i++)
+        {
+        	term = terms[i];
+        	re = RegExp(term,"i"); // i for case-insensative
+
+        	descriptions = document.getElementsByClassName("description");
+        	for (var j=0;j<descriptions.length;j++)
+        	{
+        		descriptions[j].innerHTML = descriptions[j].innerHTML.replace(re,"<b>"+term+"</b>");
+        	}
+        }
+
+    });
+
+    function addAdvancedSearchOptionsFilters()
+    {
+
+        // Remove existing previously existing advanced options filters (will be replaced by current ones)
+        existing_duration_filter = "duration:[" + getFilterValue("duration","min") + " TO " + getFilterValue("duration","max") + "]"
+        removeFilter(existing_duration_filter)
+        removeFilter("is_geotagged:1")
+
+        // if advanced options is activated add all updated filters
+        if ($("#advanced_search_hidden").val() == 1)
+        {
+
+            // Create and add new filter with all the advanced options
+            filter = ""
+
+            // Duration filter
+            duration_min = parseFloat($("#filter_duration_min").val())
+            duration_max = parseFloat($("#filter_duration_max").val())
+
+            if ((duration_min >= 0.0) || (duration_max >= 0.0))
+            {
+                duration_filter = ""
+
+                if ((duration_min >= 0.0) && (duration_max >= 0.0)) // Both min and max have been set
+                {
+                    if (duration_max < duration_min)
+                    {
+                        // interchange values if duration_min > duration_max
+                        duration_aux = duration_min
+                        duration_min = duration_max
+                        duration_max = duration_aux
+                    }
+
+                    duration_filter = "duration:[" + duration_min + " TO " + duration_max + "]"
+
+                }
+                else if (duration_min >= 0.0) // Only minimum has been set
+                {
+                    duration_filter = "duration:[" + duration_min + " TO *]"
+                }
+                else if (duration_max >= 0.0) // Only maximum has been set
+                {
+                    duration_filter = "duration:[* TO " + duration_max + "]"
+                }
+
+                filter = filter + duration_filter
+            }
+
+            // Is geotagged filter
+            if ($("#filter_is_geotagged").attr('checked')){
+                if (filter != "")
+                    filter = filter + " "
+                filter = filter + "is_geotagged:1"
+            }
+
+               // Update general filter with the advanced options filter
+            value = $("#filter_query").val();
+            if (value != "")
+                $("#filter_query").val(value + " " + filter);
+            else
+                $("#filter_query").val(filter);
+
+        }
+
+        return true
+    }
+
+    // Return the value of a filter given its name
+    // If filter has a range, optional "range" parameter must be set to "min or "max"
+    function getFilterValue(name, range)
+    {
+        if (!range) { range = "min"};
+
+        var value = $("#filter_query").val();
+        position_name = value.search(name)
+        position_value = value.search(name) + (name + ":").length
+        if (value.search((name + ":")) != -1)
+        {
+            if (value[position_value] == "[") // Is range (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("]") + 2
+
+                range_string = value.substring(position_value + 1, position_end -1) // Without [ ]
+                parts = range_string.split(" ")
+                if (range == "min")
+                    return parts[0]
+                else if (range == "max")
+                    return parts[2]
+            }
+            else if (value[position_value] == "\"") // Is string (with spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                position_end = position_value + aux_value.search("\"") + 2
+                return value.substring(position_value, position_end)
+
+            }
+            else // Is number or normal text (without spaces)
+            {
+                aux_value = value.substring(position_value + 1)
+                if (aux_value.search(" ") != -1)
+                    position_end = position_value + aux_value.search(" ") + 1
+                else
+                    position_end = value.length
+
+                return value.substring(position_value, position_end)
+            }
+        }
+        else
+        {
+            return ""
+        }
+    }
+
+    // Remove a filter given the full tag ex: type:aiff, pack:"pack name"
+    function removeFilter(tag)
+    {
+        var value = $("#filter_query").val();
+        var cleaned = $.trim(value.replace(tag + " ", "").replace(tag, ""));
+        $("#filter_query").val(cleaned);
+    }
+
+</script>
+
+
+    
+    <div id="sidebar" style="float:right">
+        
+            <h3>licenses</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20license:%22Attribution%22">Attribution</a> (899)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20license:%22Attribution+Noncommercial%22">Attribution Noncommercial</a> (433)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20license:%22Creative+Commons+0%22">Creative Commons 0</a> (1041)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20license:%22Sampling%2B%22">Sampling+</a> (57)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>tags</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.74em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22air%22">air</a></span> <span class="facet_item" style="font-size:1.168em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22animal%22">animal</a></span> <span class="facet_item" style="font-size:1.948em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22breath%22">breath</a></span> <span class="facet_item" style="font-size:1.688em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22breathe%22">breathe</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22breathing%22">breathing</a></span> <span class="facet_item" style="font-size:1.064em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22creature%22">creature</a></span> <span class="facet_item" style="font-size:1.012em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22creepy%22">creepy</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22dark%22">dark</a></span> <span class="facet_item" style="font-size:0.96em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22dog%22">dog</a></span> <span class="facet_item" style="font-size:1.168em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22exhale%22">exhale</a></span> <span class="facet_item" style="font-size:1.22em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22female%22">female</a></span> <span class="facet_item" style="font-size:1.532em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22field-recording%22">field-recording</a></span> <span class="facet_item" style="font-size:0.96em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22game%22">game</a></span> <span class="facet_item" style="font-size:1.116em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22gasp%22">gasp</a></span> <span class="facet_item" style="font-size:0.856em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22heavy%22">heavy</a></span> <span class="facet_item" style="font-size:1.792em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22horror%22">horror</a></span> <span class="facet_item" style="font-size:1.896em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22human%22">human</a></span> <span class="facet_item" style="font-size:1.324em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22inhale%22">inhale</a></span> <span class="facet_item" style="font-size:1.688em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22male%22">male</a></span> <span class="facet_item" style="font-size:0.752em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22man%22">man</a></span> <span class="facet_item" style="font-size:1.48em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22monster%22">monster</a></span> <span class="facet_item" style="font-size:1.584em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22noise%22">noise</a></span> <span class="facet_item" style="font-size:0.908em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22owi%22">owi</a></span> <span class="facet_item" style="font-size:1.168em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22percussion%22">percussion</a></span> <span class="facet_item" style="font-size:1.428em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22processed%22">processed</a></span> <span class="facet_item" style="font-size:1.376em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22scary%22">scary</a></span> <span class="facet_item" style="font-size:1.272em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22sound%22">sound</a></span> <span class="facet_item" style="font-size:1.844em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22vocal%22">vocal</a></span> <span class="facet_item" style="font-size:1.636em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22voice%22">voice</a></span> <span class="facet_item" style="font-size:0.804em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20tag:%22wind%22">wind</a></span> 
+</p>
+
+
+        
+
+        
+            <h3>type</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22aiff%22">aiff</a> (366)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22flac%22">flac</a> (85)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22m4a%22">m4a</a> (21)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22mp3%22">mp3</a> (210)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22ogg%22">ogg</a> (27)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20type:%22wav%22">wav</a> (1721)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>samplerate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20samplerate:%2222050%22">22050</a> (14)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20samplerate:%2244100%22">44100</a> (1553)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20samplerate:%2248000%22">48000</a> (680)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20samplerate:%228000%22">8000</a> (6)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20samplerate:%2296000%22">96000</a> (149)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitdepth</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitdepth:%2216%22">16</a> (1258)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitdepth:%2224%22">24</a> (800)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitdepth:%2232%22">32</a> (110)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitdepth:%228%22">8</a> (3)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>bitrate</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitrate:%221378%22">1378</a> (597)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitrate:%221411%22">1411</a> (108)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitrate:%221500%22">1500</a> (120)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitrate:%222250%22">2250</a> (168)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20bitrate:%22689%22">689</a> (155)</li>
+</ul>
+
+
+
+        
+
+
+        
+            <h3>channels</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20channels:%221%22">1</a> (681)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20channels:%222%22">2</a> (1747)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20channels:%226%22">6</a> (2)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>packs</h3>
+            
+ <ul>
+     <li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%221302_Natal+Quinto%22">Natal Quinto</a> (62)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%2213662_Breathing+Industrial+Game%22">Breathing Industrial Game</a> (28)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%221722_Processed+Breath+Sounds%22">Processed Breath Sounds</a> (27)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%2218075_Fire+%26+Explosions%22">Fire &amp; Explosions</a> (40)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%222319_breaths_processed%22">breaths_processed</a> (23)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%222937_Frogerie%27s+sounds%22">Frogerie's sounds</a> (32)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%223785_Ocean+giant+breathing%22">Ocean giant breathing</a> (27)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%22544_whispers%2C+breath%2C+wind%22">whispers, breath, wind</a> (39)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%22570_vocal+syllables+breathy%22">vocal syllables breathy</a> (28)</li><li class="facet_item"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20grouping_pack:%22572_vocal+syllables+hee+ha+breath%22">vocal syllables hee ha breath</a> (53)</li>
+</ul>
+
+
+
+        
+
+        
+            <h3>users</h3>
+            
+
+<p class="search-tagcloud">
+    <span class="facet_item" style="font-size:1.56666666667em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22arnaud+coutancier%22">arnaud coutancier</a></span> <span class="facet_item" style="font-size:2.0em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22batchku%22">batchku</a></span> <span class="facet_item" style="font-size:1.92777777778em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22craigsmith%22">craigsmith</a></span> <span class="facet_item" style="font-size:1.13333333333em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22deganoth%22">deganoth</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22deleted_user_1390811%22">deleted_user_1390811</a></span> <span class="facet_item" style="font-size:1.06111111111em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22deleted_user_3330286%22">deleted_user_3330286</a></span> <span class="facet_item" style="font-size:1.06111111111em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22dobroide%22">dobroide</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22erh%22">erh</a></span> <span class="facet_item" style="font-size:0.772222222222em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22freqman%22">freqman</a></span> <span class="facet_item" style="font-size:0.7em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22fuchsrodolfo%22">fuchsrodolfo</a></span> <span class="facet_item" style="font-size:1.71111111111em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22hanstimm%22">hanstimm</a></span> <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22janzcomposer%22">janzcomposer</a></span> <span class="facet_item" style="font-size:0.916666666667em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22jarredgibb%22">jarredgibb</a></span> <span class="facet_item" style="font-size:1.20555555556em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22klankbeeld%22">klankbeeld</a></span> <span class="facet_item" style="font-size:1.63888888889em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22liamg_sfx%22">liamg_sfx</a></span> <span class="facet_item" style="font-size:1.27777777778em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22littlerobotsoundfactory%22">littlerobotsoundfactory</a></span> <span class="facet_item" style="font-size:1.42222222222em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22lsprice%22">lsprice</a></span> <span class="facet_item" style="font-size:0.844444444444em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22luckylittleraven%22">luckylittleraven</a></span> <span class="facet_item" style="font-size:0.988888888889em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22phonosupf%22">phonosupf</a></span> <span class="facet_item" style="font-size:0.988888888889em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22qubodup%22">qubodup</a></span> <span class="facet_item" style="font-size:1.78333333333em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22ramjac%22">ramjac</a></span> <span class="facet_item" style="font-size:0.772222222222em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22robinhood76%22">robinhood76</a></span> <span class="facet_item" style="font-size:1.42222222222em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22satoration%22">satoration</a></span> <span class="facet_item" style="font-size:1.06111111111em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22sdlx%22">sdlx</a></span> <span class="facet_item" style="font-size:1.49444444444em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22spankmyfilth%22">spankmyfilth</a></span> <span class="facet_item" style="font-size:1.85555555556em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22thanvannispen%22">thanvannispen</a></span> <span class="facet_item" style="font-size:0.844444444444em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22the+baron%22">the baron</a></span> <span class="facet_item" style="font-size:0.988888888889em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22tylerandbergsd%22">tylerandbergsd</a></span> <span class="facet_item" style="font-size:1.13333333333em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22univ_lyon3%22">univ_lyon3</a></span> <span class="facet_item" style="font-size:1.35em"><a href="https://freesound.org/search/?g=1&amp;q=breathing&amp;f=%20username:%22vanishedillusion%22">vanishedillusion</a></span> 
+</p>
+
+
+        
+
+    </div>
+
+        
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=breathing&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=breathing&amp;page=98#sound" title="Last Page">98</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 2430 sounds
+            
+        </p></ul>
+
+
+            </div>
+
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="486092">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/486/486092_10430677-lq.mp3" title="mp3 file">Breathing.m4a - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/486/486092_10430677-lq.ogg" title="ogg file">Breathing.m4a - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/486/486092_10430677_wave_M.png" title="waveform file">Breathing.m4a - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/486/486092_10430677_spec_M.jpg" title="spectrogram file">Breathing.m4a - spectrogram</a>
+<span class="duration" title="duration in seconds">12373.3</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/486/486092_10430677_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 100.474%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Christyboy100/sounds/486092/" title="Breathing.m4a">Breathing.m4a</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:62%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Someone <b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Person/">Person</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Breathing/">Breathing</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_486092" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Christyboy100/">Christyboy100</a><br>
+        <span class="date">September 24th, 2019</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Christyboy100/sounds/486092/downloaders/">3071 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Christyboy100/sounds/486092/#comments">4 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Christyboy100/sounds/486092/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="416076">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/416/416076_5121236-lq.mp3" title="mp3 file">Breathing, Tremolo, A.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/416/416076_5121236-lq.ogg" title="ogg file">Breathing, Tremolo, A.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/416/416076_5121236_wave_M.png" title="waveform file">Breathing, Tremolo, A.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/416/416076_5121236_spec_M.jpg" title="spectrogram file">Breathing, Tremolo, A.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">2093.13</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/416/416076_5121236_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 103.195%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/InspectorJ/sounds/416076/" title="Breathing, Tremolo, A.wav">Breathing, Tremolo, A.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:60%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A sore throat has its uses. This sound is NOT in the public domain. You MUST attribute/credit the sound if ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Breathing/">Breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Sore/">Sore</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Tremolo/">Tremolo</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sore/">sore</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/throat/">throat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/tremolo/">tremolo</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Throat/">Throat</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Wheeze/">Wheeze</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/wheeze/">wheeze</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_416076" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/InspectorJ/">InspectorJ</a><br>
+        <span class="date">January 22nd, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/InspectorJ/sounds/416076/downloaders/">691 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/InspectorJ/sounds/416076/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/InspectorJ/sounds/416076/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="391175">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/391/391175_7329819-lq.mp3" title="mp3 file">Calm breathing.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/391/391175_7329819-lq.ogg" title="ogg file">Calm breathing.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/391/391175_7329819_wave_M.png" title="waveform file">Calm breathing.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/391/391175_7329819_spec_M.jpg" title="spectrogram file">Calm breathing.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">5333.33</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="play toggle">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/391/391175_7329819_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                                  <div class="position-indicator" style="left: 100.8%;"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:00</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/fuchsrodolfo/sounds/391175/" title="Calm breathing.wav">Calm breathing.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:97%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">We used a microphone AGK C414. Its just someone calm <b>breathing</b> close to the microphone.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/relaxing/">relaxing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/relaxed/">relaxed</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/uam/">uam</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/calm/">calm</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/peaceful/">peaceful</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/5maudio17/">5maudio17</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_391175" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/fuchsrodolfo/">fuchsrodolfo</a><br>
+        <span class="date">May 3rd, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/fuchsrodolfo/sounds/391175/downloaders/">6983 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/fuchsrodolfo/sounds/391175/#comments">6 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/fuchsrodolfo/sounds/391175/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/fuchsrodolfo/packs/21979/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Breathing">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/bync.png" height="16" alt="Creative Commons Attribution Non-Commercial license" title="This sound is licensed under the Creative Commons Attribution Non-Commercial license.">
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./breathe_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=breathing&amp;f=grouping_pack:%2221979_Breathing%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">9 more results</a> in the same pack "Breathing"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="151215">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/151/151215_140737-lq.mp3" title="mp3 file">Female Breathing Heavily (2) - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/151/151215_140737-lq.ogg" title="ogg file">Female Breathing Heavily (2) - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/151/151215_140737_wave_M.png" title="waveform file">Female Breathing Heavily (2) - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/151/151215_140737_spec_M.jpg" title="spectrogram file">Female Breathing Heavily (2) - spectrogram</a>
+<span class="duration" title="duration in seconds">4269.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/151/151215_140737_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:04</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/OwlStorm/sounds/151215/" title="Female Breathing Heavily (2)">Female Breathing Heavily...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:91%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A female breathes heavily. Could be used for exercising or running.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/huff/">huff</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/female/">female</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/clean/">clean</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/puff/">puff</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/puffing/">puffing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/exercise/">exercise</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_151215" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/OwlStorm/">OwlStorm</a><br>
+        <span class="date">April 10th, 2012</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/OwlStorm/sounds/151215/downloaders/">20939 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/OwlStorm/sounds/151215/#comments">35 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/OwlStorm/sounds/151215/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/OwlStorm/packs/9343/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Heavy breathing">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./breathe_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./breathe_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=breathing&amp;f=grouping_pack:%229343_Heavy%20breathing%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">2 more results</a> in the same pack "Heavy breathing"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="401336">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/401/401336_6652552-lq.mp3" title="mp3 file">Breathing - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/401/401336_6652552-lq.ogg" title="ogg file">Breathing - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/401/401336_6652552_wave_M.png" title="waveform file">Breathing - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/401/401336_6652552_spec_M.jpg" title="spectrogram file">Breathing - spectrogram</a>
+<span class="duration" title="duration in seconds">8324.35</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/401/401336_6652552_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:08</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/ckvoiceover/sounds/401336/" title="Breathing">Breathing</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:85%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Slow <b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/male/">male</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/air/">air</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/inhale/">inhale</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/human/">human</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/exhale/">exhale</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/gasp/">gasp</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/voice/">voice</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/man/">man</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_401336" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/ckvoiceover/">ckvoiceover</a><br>
+        <span class="date">September 5th, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/ckvoiceover/sounds/401336/downloaders/">16726 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/ckvoiceover/sounds/401336/#comments">17 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/ckvoiceover/sounds/401336/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="446071">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/446/446071_8985912-lq.mp3" title="mp3 file">Breathing.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/446/446071_8985912-lq.ogg" title="ogg file">Breathing.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/446/446071_8985912_wave_M.png" title="waveform file">Breathing.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/446/446071_8985912_spec_M.jpg" title="spectrogram file">Breathing.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">3398.0</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/446/446071_8985912_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:03</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/SophieMezaM/sounds/446071/" title="Breathing.wav">Breathing.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/exhale/">exhale</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/inhale/">inhale</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_446071" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/SophieMezaM/">SophieMezaM</a><br>
+        <span class="date">November 4th, 2018</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/SophieMezaM/sounds/446071/downloaders/">529 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/SophieMezaM/sounds/446071/#comments">2 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/SophieMezaM/sounds/446071/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/SophieMezaM/packs/25285/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Multiple sounds">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="491997">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/491/491997_9779705-lq.mp3" title="mp3 file">heavy breathing.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/491/491997_9779705-lq.ogg" title="ogg file">heavy breathing.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/491/491997_9779705_wave_M.png" title="waveform file">heavy breathing.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/491/491997_9779705_spec_M.jpg" title="spectrogram file">heavy breathing.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">56142.7</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/491/491997_9779705_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:56</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/GM180259/sounds/491997/" title="heavy breathing.wav">heavy breathing.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:71%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sounds/">sounds</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/hard/">hard</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/OWI/">OWI</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_491997" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/GM180259/">GM180259</a><br>
+        <span class="date">November 6th, 2019</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/GM180259/sounds/491997/downloaders/">918 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/GM180259/sounds/491997/#comments">2 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/GM180259/sounds/491997/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="234803">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/234/234803_3450800-lq.mp3" title="mp3 file">Breathing - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/234/234803_3450800-lq.ogg" title="ogg file">Breathing - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/234/234803_3450800_wave_M.png" title="waveform file">Breathing - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/234/234803_3450800_spec_M.jpg" title="spectrogram file">Breathing - spectrogram</a>
+<span class="duration" title="duration in seconds">4981.59</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/234/234803_3450800_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:04</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/RICHERlandTV/sounds/234803/" title="Breathing">Breathing</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:74%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Something very large <b>breathing</b>.</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/beast/">beast</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/monster/">monster</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/dragon/">dragon</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/fantasy/">fantasy</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/adventure/">adventure</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/rpg/">rpg</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/game-sound/">game-sound</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/creature/">creature</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_234803" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/RICHERlandTV/">RICHERlandTV</a><br>
+        <span class="date">April 25th, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/RICHERlandTV/sounds/234803/downloaders/">5329 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/RICHERlandTV/sounds/234803/#comments">6 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/RICHERlandTV/sounds/234803/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/RICHERlandTV/packs/14448/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Magic">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="234335">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/234/234335_3227813-lq.mp3" title="mp3 file">Breath - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/234/234335_3227813-lq.ogg" title="ogg file">Breath - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/234/234335_3227813_wave_M.png" title="waveform file">Breath - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/234/234335_3227813_spec_M.jpg" title="spectrogram file">Breath - spectrogram</a>
+<span class="duration" title="duration in seconds">13764.6</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/234/234335_3227813_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:13</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/mcroce/sounds/234335/" title="Breath">Breath</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:88%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A gasp and scared breath</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/human/">human</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/frightened/">frightened</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/vocal/">vocal</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/woman/">woman</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/female/">female</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/gasp/">gasp</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/voice/">voice</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/panic/">panic</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_234335" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/mcroce/">mcroce</a><br>
+        <span class="date">April 21st, 2014</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/mcroce/sounds/234335/downloaders/">17740 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/mcroce/sounds/234335/#comments">21 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/mcroce/sounds/234335/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./breathe_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="202271">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/202/202271_3764176-lq.mp3" title="mp3 file">breathing - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/202/202271_3764176-lq.ogg" title="ogg file">breathing - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/202/202271_3764176_wave_M.png" title="waveform file">breathing - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/202/202271_3764176_spec_M.jpg" title="spectrogram file">breathing - spectrogram</a>
+<span class="duration" title="duration in seconds">9574.94</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/202/202271_3764176_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:09</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/dragdark/sounds/202271/" title="breathing">breathing</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:67%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description"><b>breathing</b> after running down the hill</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/running/">running</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/dragnoise/">dragnoise</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_202271" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/dragdark/">dragdark</a><br>
+        <span class="date">October 4th, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/dragdark/sounds/202271/downloaders/">5846 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/dragdark/sounds/202271/#comments">8 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/dragdark/sounds/202271/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./breathe_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="372241">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/372/372241_5190882-lq.mp3" title="mp3 file">Breathing - Slow, Distraught, Tired - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/372/372241_5190882-lq.ogg" title="ogg file">Breathing - Slow, Distraught, Tired - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/372/372241_5190882_wave_M.png" title="waveform file">Breathing - Slow, Distraught, Tired - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/372/372241_5190882_spec_M.jpg" title="spectrogram file">Breathing - Slow, Distraught, Tired - spectrogram</a>
+<span class="duration" title="duration in seconds">66303.8</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/372/372241_5190882_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-01:06</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/TomchikRec/sounds/372241/" title="Breathing - Slow, Distraught, Tired">Breathing - Slow, Distra...</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:78%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Heavy <b>breathing</b>. Pitch altered and verbed for DRAMA. Recorded with Rode NT1A Edited in Reaper</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/heavy/">heavy</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/tired/">tired</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_372241" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/TomchikRec/">TomchikRec</a><br>
+        <span class="date">January 2nd, 2017</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/TomchikRec/sounds/372241/downloaders/">6167 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/TomchikRec/sounds/372241/#comments">7 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/TomchikRec/sounds/372241/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/TomchikRec/packs/20990/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Foley Sounds - Breathing">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="267305">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/267/267305_4665084-lq.mp3" title="mp3 file">Breathing - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/267/267305_4665084-lq.ogg" title="ogg file">Breathing - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/267/267305_4665084_wave_M.png" title="waveform file">Breathing - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/267/267305_4665084_spec_M.jpg" title="spectrogram file">Breathing - spectrogram</a>
+<span class="duration" title="duration in seconds">12630.7</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/267/267305_4665084_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:12</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/viznoman/sounds/267305/" title="Breathing">Breathing</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:90%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Just me <b>breathing</b> in and out with some reverb</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathe/">breathe</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/air/">air</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breath/">breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/inhale/">inhale</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/exhale/">exhale</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_267305" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/viznoman/">viznoman</a><br>
+        <span class="date">March 17th, 2015</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/viznoman/sounds/267305/downloaders/">14534 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/viznoman/sounds/267305/#comments">14 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/viznoman/sounds/267305/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="59072">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/59/59072_170972-lq.mp3" title="mp3 file">Giant breathing 1.wav - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/59/59072_170972-lq.ogg" title="ogg file">Giant breathing 1.wav - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/59/59072_170972_wave_M.png" title="waveform file">Giant breathing 1.wav - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/59/59072_170972_spec_M.jpg" title="spectrogram file">Giant breathing 1.wav - spectrogram</a>
+<span class="duration" title="duration in seconds">2146.8</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/59/59072_170972_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:02</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Satoration/sounds/59072/" title="Giant breathing 1.wav">Giant breathing 1.wav</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:0%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">One in the series of short clips for Sonokids omni pad project. It is a recording of Sea organ in ...</p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/field-recording/">field-recording</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/giant/">giant</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sea-organ/">sea-organ</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/sonokids-omni/">sonokids-omni</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_59072" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Satoration/">Satoration</a><br>
+        <span class="date">August 18th, 2008</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Satoration/sounds/59072/downloaders/">138 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Satoration/sounds/59072/#comments">1 comment</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Satoration/sounds/59072/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Satoration/packs/3785/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Ocean giant breathing">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+            
+                <img class="cc_license" src="./breathe_files/by.png" width="16" height="16" alt="Creative Commons Attribution license" title="This sound is licensed under the Creative Commons Attribution license.">
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./breathe_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=breathing&amp;f=grouping_pack:%223785_Ocean%20giant%20breathing%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">26 more results</a> in the same pack "Ocean giant breathing"</div>
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="346932">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/346/346932_1303681-lq.mp3" title="mp3 file">Breathing (male) - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/346/346932_1303681-lq.ogg" title="ogg file">Breathing (male) - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/346/346932_1303681_wave_M.png" title="waveform file">Breathing (male) - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/346/346932_1303681_spec_M.jpg" title="spectrogram file">Breathing (male) - spectrogram</a>
+<span class="duration" title="duration in seconds">45379.7</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/346/346932_1303681_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:45</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/dav0r/sounds/346932/" title="Breathing (male)">Breathing (male)</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:51%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">A male, <b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Breath/">Breath</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Breathing/">Breathing</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Male/">Male</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/Air/">Air</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_346932" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/dav0r/">dav0r</a><br>
+        <span class="date">June 4th, 2016</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/dav0r/sounds/346932/downloaders/">2910 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/dav0r/sounds/346932/#comments">3 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/dav0r/sounds/346932/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./breathe_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+            
+                
+
+
+
+
+
+
+
+<div class="sample_player_small" id="189281">
+
+    
+
+    <div class="sample_player ">
+        <div class="small_player">
+            <div class="player small">
+    <div class="metadata">
+        <a class="mp3_file" href="https://freesound.org/data/previews/189/189281_1325505-lq.mp3" title="mp3 file">Zombie breathing - mp3 version</a>
+<a class="ogg_file" href="https://freesound.org/data/previews/189/189281_1325505-lq.ogg" title="ogg file">Zombie breathing - ogg version</a>
+<a class="waveform" href="https://freesound.org/data/displays/189/189281_1325505_wave_M.png" title="waveform file">Zombie breathing - waveform</a>
+<a class="spectrum" href="https://freesound.org/data/displays/189/189281_1325505_spec_M.jpg" title="spectrogram file">Zombie breathing - spectrogram</a>
+<span class="duration" title="duration in seconds">35301.9</span>
+
+    </div>
+<div class="controls">                     <a href="javascript:void(0)" title="play / pause" class="toggle play">play / pause</a>                     <a href="javascript:void(0)" title="loop" class="toggle loop">loop</a>                 </div>                 <div class="background" style="background-image: url(&quot;/data/displays/189/189281_1325505_wave_M.png&quot;); background-size: contain; background-repeat: no-repeat;"></div>                 <div class="loading-progress" style="display: none;"></div>                 <div class="position-indicator"></div>                 <div class="time-indicator-container"><div class="time-indicator">-00:35</div></div></div>
+
+        </div><!-- .small_player -->
+
+        <div class="sound_title">
+            <div class="sound_filename">
+               <a class="title" href="https://freesound.org/people/Huminaatio/sounds/189281/" title="Zombie breathing">Zombie breathing</a>
+            </div><!-- .sound_filename -->
+            <div class="sound_stars">
+               <ul class="star-rating">
+    <li class="current-rating" style="width:94%;">Currently /5 Stars.</li>
+    
+</ul>
+            </div><!-- .sound_stars -->
+
+            <div class="sound_description">
+                <p class="description">Zombie <b>breathing</b></p>
+            </div><!-- .sound_description -->
+
+            <div class="sound_tags">
+
+                <ul class="tags">
+                    
+                        <li><a href="https://freesound.org/browse/tags/Zombie/">Zombie</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/undead/">undead</a></li>
+                    
+                        <li><a href="https://freesound.org/browse/tags/breathing/">breathing</a></li>
+                    
+                </ul>
+                <br style="clear: both;">
+
+            </div><!-- .sound_tags -->
+
+            <div id="bookmark_form_189281" class="bookmark_form"></div> <!-- to be filled dynamically with ajax -->
+
+            
+
+          </div><!-- .sound_title -->
+    </div><!-- .sample_player -->
+
+    <div class="sample_information ">
+        <a class="user" href="https://freesound.org/people/Huminaatio/">Huminaatio</a><br>
+        <span class="date">May 24th, 2013</span><br>
+        <span class="download_count"><a href="https://freesound.org/people/Huminaatio/sounds/189281/downloaders/">8403 downloads</a></span><br>
+        <a class="comments" href="https://freesound.org/people/Huminaatio/sounds/189281/#comments">22 comments</a>
+
+        <div class="sound_attributes">
+
+            
+
+            
+            <a class="similar" rel="nofollow" href="https://freesound.org/people/Huminaatio/sounds/189281/similar/">
+                <img src="./breathe_files/headphone--plus.png" width="16" height="16" alt="Similar" title="Similar Sounds">
+            </a>
+            
+            
+            <a class="pack" href="https://freesound.org/people/Huminaatio/packs/11971/">
+                <img src="./breathe_files/folder-open-document-music.png" width="16" height="16" alt="Pack" title="This sound belongs to the pack: Zombie">
+            </a>
+            
+            
+            
+            <!-- license icons -->
+            
+            
+                <img class="cc_license" src="./breathe_files/nolaw.png" width="16" height="16" alt="Public Domain license" title="This sound is public domain.">
+            
+            
+            
+            <!-- /license icons -->
+
+        </div><!-- .sound_attributes -->
+    </div><!-- .sample_information -->
+</div><!-- .sample_player_small -->
+
+
+
+
+
+
+                
+                        <div class="sample_more_search_results"><img src="./breathe_files/plus.png" alt=""> <a href="https://freesound.org/search/?q=breathing&amp;f=grouping_pack:%2211971_Zombie%22%20&amp;s=%22score%20desc%22&amp;g=1&amp;advanced=&amp;a_tag=&amp;a_filename=&amp;a_description=&amp;a_packname=&amp;a_soundid=&amp;a_username=">1 more result</a> in the same pack "Zombie"</div>
+                
+            
+
+            <div class="search_paginator">
+                <ul class="pagination"><li class="disabled-previous-next">previous</li><li class="next-page"><a href="https://freesound.org/search/?q=breathing&amp;page=2#sound" title="Next Page">next</a></li><li class="current-page">1</li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=2#sound" title="Page 2">2</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=3#sound" title="Page 3">3</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=4#sound" title="Page 4">4</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=5#sound" title="Page 5">5</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=6#sound" title="Page 6">6</a></li><li class="other-page"><a href="https://freesound.org/search/?q=breathing&amp;page=7#sound" title="Page 7">7</a></li><li class="dots">...</li><li class="last-page"><a href="https://freesound.org/search/?q=breathing&amp;page=98#sound" title="Last Page">98</a></li><p class="number_of_results">
+            
+                &nbsp;|&nbsp; 2430 sounds
+            
+        </p></ul>
+
+
+            </div>
+        
+
+
+    
+
+
+
+</div> <!-- END of Content area -->
+
+<br class="clear">
+
+
+
+            </div>
+        </div>
+
+        <div id="footer_wrapper">
+            <div id="footer">
+                <div id="cookie-bar">
+                    <div style="float:left">
+                        <p>
+                            We use cookies to ensure you get the best experience on our website. By browsing our site you agree to our use of cookies.
+                            <br>
+                            For more information check out our <a href="https://freesound.org/help/cookies_policy">cookies policy</a>.
+                        </p>
+                    </div>
+                    <div style="float:right; margin-top:10px;margin-right:10px;">
+                        <button id="cookie-accept">Ok</button>
+                    </div>
+                    <br class="clear">
+
+                </div>
+                <div id="footer_links">
+                    <a href="https://freesound.org/help/developers/">Developers</a>
+                    <a href="https://blog.freesound.org/">Blog</a>
+                    <a href="https://freesound.org/help/about/">About</a>
+                    
+                    <a href="https://freesound.org/help/tos_web/">Terms of use</a>
+                </div>
+                <div id="footer_credits">
+                    Design by <a href="http://www.pixelshell.com/">Pixelshell</a>. Code by <a href="https://www.upf.edu/web/mtg">MTG (UPF)</a>. Some Rights Reserved.
+                </div>
+            </div>
+        </div>
+
+        <div id="fsmodal" class="modal"></div>
+    
+
+</body></html>
